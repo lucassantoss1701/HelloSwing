@@ -91,7 +91,7 @@
         
     http://localhost:8080/address/ceps/{cep}
     
-<p> Dentro de {cep} é informado os números que compõem o cep desejado para a busca, nesse exemplo utilizaremos o cep 13167777 </p>
+<p> No lugar de {cep} é informado os números que compõem o cep desejado para a busca, nesse exemplo utilizaremos o cep 13167777 </p>
 
     {
         "id": 1,
