@@ -21,7 +21,7 @@
 
 <h3 id="comoUsar"> Como utilizar </h3>
 
-<p>Foi preparado um cenário ao executar que possui os seguintes dados: </p>
+<p>Foi preparado um cenário ao executar o programa que possui os seguintes dados: </p>
 
 <h4> ADDRESS </h4>
 
