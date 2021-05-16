@@ -92,6 +92,8 @@
     http://localhost:8080/address/ceps/{cep}
     
 <p> No lugar de {cep} é informado os números que compõem o cep desejado para a busca, nesse exemplo utilizaremos o cep 13167777 </p>
+<p> Ao executar a requisição do tipo GET nessa URL, obtemos a seguinte resposta </p>
+
 
     {
         "id": 1,
