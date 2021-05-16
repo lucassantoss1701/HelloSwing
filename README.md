@@ -5,6 +5,7 @@
 <p align="center">
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#comoUsar">Como utilizar</a>
+  <a href="#java">Escolha da linguagem</a>
 </p>
 
 <h3 id="tecnologias"> Tecnologias </h3>
@@ -13,6 +14,8 @@
   <li>Spring (data, security, web e test)</li>
   <li>Banco em mémoria H2</li>
   <li>JWT para autenticações</li>
+  <li> Java 11 </li>
+  <li> Maven 3.8.1</li>
 </ul>
 
 
@@ -74,10 +77,43 @@
           
     http://localhost:8080/login
     
-<p> Após executar a requisição, receberemos em nosso header a KEY Authentication com o valor de nossa chave JWT, como por exemplo </p>
+<p> Após executar a requisição, receberemos em nosso header a KEY Authentication com o valor de nosso token JWT, como por exemplo </p>
 
+| KEY | VALUE | 
 | ------------ | ------------- | 
-| Authentication | Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsdWNhc3qF... | 
+| Authentication | Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsdWNhc3qF...  |
+
+<p> Copiamos então o token JWT sem o "Bearer", e usamos esse token em todas as outras requisições até que ele expire </p>
+
+<h4> Buscando Endereço </h4>
+
+<p> Para buscamos um endereço precisamos acessar a seguinte URL </p>
+        
+    http://localhost:8080/address/ceps/{cep}
+    
+<p> Dentro de {cep} é informado os números que compõem o cep desejado para a busca, nesse exemplo utilizaremos o cep 13167777 </p>
+
+    {
+        "id": 1,
+        "road": "Rua Magalu",
+        "district": "LuizaLabs",
+        "cep": "13167777",
+        "city": {
+            "id": 1,
+            "name": "Franca",
+            "state": {
+                "id": 1,
+                "name": "São Paulo"
+            }
+        }
+    }
+    
+    
+<h3 id="java"> Escolha do Java </h3>
+
+<p> Foi escolhida a linguagem Java para esse desenvolvimento por quê possuo uma maior familiaridade com ela, apesar de ter tipo uma vontade imensa de arriscar um node.js por conta de fazer muito tempo que não programo com essa linguagem, porém o prazo me fez recuar da ideia </p>
+
+
 
 
 
