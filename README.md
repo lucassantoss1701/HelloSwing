@@ -4,7 +4,7 @@
 
 <p align="center">
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#comoUsar">Como utilizar</a>
+ <a href="#comoUsar">Como utilizar</a> •
   <a href="#java">Escolha da linguagem</a>
 </p>
 
