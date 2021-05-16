@@ -76,6 +76,7 @@
     
 <p> Após executar a requisição, receberemos em nosso header a KEY Authentication com o valor de nossa chave JWT, como por exemplo </p>
 
+| ------------ | ------------- | 
 | Authentication | Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJsdWNhc3qF... | 
 
 
